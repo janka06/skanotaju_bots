@@ -5,7 +5,7 @@ import mysql.connector
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("MTM2NDI5NDY5NjE5MjcwNDU1Mg.GtS-HR.qzA5hhNHJDaUAcGNVqQv6Xpz_SMMb7yA_biIjw")
+TOKEN = os.getenv("TOKEN")
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
